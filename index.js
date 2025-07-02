@@ -15,6 +15,6 @@ button.addEventListener("click",()=>{
             inputArr[j]=noteArr[(noteArr.indexOf(ele)+1)%noteArr.length]
         }
     })
-    output.innerHTML+=inputArr.join("")+'<br>'
+    output.innerHTML+=inputArr.join("")+'<br><br>'
 }
 })
