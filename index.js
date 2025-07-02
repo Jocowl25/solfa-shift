@@ -9,9 +9,6 @@ button.addEventListener("click",()=>{
     for(let i=0;i<7;i++){
     inputArr.forEach((ele,j)=>{
         if(noteArr.includes(ele)){
-            if(inputArr[j]=="T"){
-            inputArr[j+1]=parseInt(inputArr[j+1])+1
-            }
             inputArr[j]=noteArr[(noteArr.indexOf(ele)+1)%noteArr.length]
         }
     })
