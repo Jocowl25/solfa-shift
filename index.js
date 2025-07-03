@@ -1,10 +1,10 @@
-let noteArr=["D","R","M","F","S","L","T"]
-let inputEle=document.querySelector('input')
-let button=document.querySelector('button')
-let output=document.querySelector('.output')
+const noteArr=["D","R","M","F","S","L","T"]
+const inputEle=document.querySelector('input')
+const button=document.querySelector('button')
+const output=document.querySelector('.output')
 button.addEventListener("click",()=>{
     output.innerHTML=""
-    let input=inputEle.value
+    const input=inputEle.value
     let inputArr=input.split("")
     for(let i=0;i<7;i++){
     inputArr.forEach((ele,j)=>{
